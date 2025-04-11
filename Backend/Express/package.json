@@ -1,0 +1,26 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Project server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santiago-Rivera/Fullstack.git"
+  },
+  "keywords": [
+    "Santiago1218@"
+  ],
+  "author": "Santiago Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santiago-Rivera/Fullstack/issues"
+  },
+  "homepage": "https://github.com/Santiago-Rivera/Fullstack#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
