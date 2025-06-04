@@ -1,0 +1,24 @@
+* {
+    text-align: center;
+}
+.important {
+    text-align: center;
+    color: red;
+}
+.important2 {
+    color: black;
+}
+.important3 {
+    color: green;
+}
+.important4 {
+    color: blue;
+}
+.important5 {
+    color: black;
+}
+ol{
+margin-left: -40px;
+margin-top: -20px;
+list-style-type: inside;
+}
