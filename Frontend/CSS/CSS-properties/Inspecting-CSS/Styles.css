@@ -1,0 +1,33 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: royalblue;
+    font-size: 3rem;
+    font-family: 'Times New Roman', sans-serif;
+}
+p {
+    font-size: 1rem;
+    font-weight: normal;
+}
+h2 {
+    font-weight: 500;
+}
+.quiz {
+    margin: 20px;
+    text-align: left;
+}
+.question {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    margin: 20px;
+}
+.answer {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    margin: 20px;
+}
