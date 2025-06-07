@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b04b8ac9-48cf-4b71-94ae-30297f09b1a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Frontend/Html/Advanced Html/File_Paths.html" beforeDir="false" />
+    <list default="true" id="b04b8ac9-48cf-4b71-94ae-30297f09b1a3" name="Changes" comment="Frontend(Inspecting-CSS)">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,21 +19,40 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="18e8d6a9-8331-4086-9275-7d92f99b96ba" value="Green" />
+    </colors>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Santiago-Rivera&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Santiago-Rivera/Fullstack.git&quot;,
-    &quot;accountId&quot;: &quot;0d24f597-82cb-4457-a856-bec62c95d07a&quot;
+    &quot;accountId&quot;: &quot;6de4a885-aa04-4bdf-96d5-13719d9f4a1a&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -38,29 +61,54 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2wCWK88cQvi4EgCNqB2X1o4ZmIn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Frontend/CSS/Introduction-to-css/Add-css" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
       </set>
     </attachedChunks>
   </component>
@@ -73,11 +121,84 @@
       <updated>1745545969481</updated>
       <workItem from="1745545970944" duration="39000" />
       <workItem from="1746022503080" duration="30000" />
+      <workItem from="1749048111743" duration="239000" />
+      <workItem from="1749048370882" duration="43000" />
+      <workItem from="1749048424970" duration="311000" />
+      <workItem from="1749048748757" duration="1585000" />
+      <workItem from="1749050371085" duration="5254000" />
+      <workItem from="1749065178145" duration="25000" />
+      <workItem from="1749065212015" duration="13000" />
+      <workItem from="1749065431643" duration="381000" />
+      <workItem from="1749065826730" duration="339000" />
+      <workItem from="1749075001890" duration="1714000" />
+      <workItem from="1749076728310" duration="1955000" />
+      <workItem from="1749078889332" duration="19000" />
+      <workItem from="1749078933069" duration="592000" />
+      <workItem from="1749085531971" duration="6000" />
+      <workItem from="1749085575392" duration="5000" />
+      <workItem from="1749085599859" duration="41000" />
+      <workItem from="1749085884456" duration="15000" />
+      <workItem from="1749085909895" duration="166000" />
+      <workItem from="1749090312806" duration="53000" />
+      <workItem from="1749137386197" duration="789000" />
+      <workItem from="1749138688081" duration="192000" />
+      <workItem from="1749258918743" duration="1360000" />
     </task>
+    <task id="LOCAL-00001" summary="Frontend(Add-Css)">
+      <option name="closed" value="true" />
+      <created>1749050427446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749050427446</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Frontend(CSS-Properties)">
+      <option name="closed" value="true" />
+      <created>1749076193768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749076193768</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Frontend(Font-Properties)">
+      <option name="closed" value="true" />
+      <created>1749259322116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749259322116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Frontend(Inspecting-CSS)">
+      <option name="closed" value="true" />
+      <created>1749260242105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749260242105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Frontend(Add-Css)" />
+    <MESSAGE value="Frontend(CSS-Properties)" />
+    <MESSAGE value="Frontend(Font-Properties)" />
+    <MESSAGE value="Frontend(Inspecting-CSS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend(Inspecting-CSS)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
