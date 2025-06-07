@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b04b8ac9-48cf-4b71-94ae-30297f09b1a3" name="Changes" comment="Frontend(Inspecting-CSS)">
-      <change afterPath="$PROJECT_DIR$/Frontend/CSS/CSS-properties/CSS-Box-Model/CSS-Box-Model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/CSS/CSS-properties/CSS-Box-Model/Styles.css" afterDir="false" />
+    <list default="true" id="b04b8ac9-48cf-4b71-94ae-30297f09b1a3" name="Changes" comment="Frontend(CSS-Box-Model)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +38,12 @@
 }</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
+  &quot;configuredContexts&quot;: [
+    {
+      &quot;name&quot;: &quot;docker-desktop&quot;,
+      &quot;kubeConfigUrl&quot;: &quot;file:///home/santiago/.kube/config&quot;
+    }
+  ],
   &quot;isMigrated&quot;: true
 }</component>
   <component name="ProblemsViewState">
@@ -72,6 +76,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/santiago/Descargas/Docker/Dockerfile&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -83,7 +88,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.kubernetes.view.ui.settings.KubernetesViewConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -96,6 +101,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Frontend/CSS/Introduction-to-css/Add-css" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="docker-deploy" />
+      </set>
+    </option>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -138,6 +150,7 @@
       <workItem from="1749258918743" duration="1864000" />
       <workItem from="1749260802670" duration="315000" />
       <workItem from="1749265765468" duration="5000" />
+      <workItem from="1749265846683" duration="5494000" />
     </task>
     <task id="LOCAL-00001" summary="Frontend(Add-Css)">
       <option name="closed" value="true" />
@@ -187,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749260349586</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Frontend(CSS-Box-Model)">
+      <option name="closed" value="true" />
+      <created>1749265880058</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749265880058</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +230,8 @@
     <MESSAGE value="Frontend(CSS-Properties)" />
     <MESSAGE value="Frontend(Font-Properties)" />
     <MESSAGE value="Frontend(Inspecting-CSS)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend(Inspecting-CSS)" />
+    <MESSAGE value="Frontend(CSS-Box-Model)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend(CSS-Box-Model)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
