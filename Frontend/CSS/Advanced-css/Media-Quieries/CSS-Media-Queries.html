@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Media Queries</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>What are Media Queries?</h2>
+            <p>Media queries are a powerful feature of CSS that allow you to apply styles based on the characteristics of the device or viewport, such as its width, height, orientation, and resolution.</p>
+        </section>
+
+        <section>
+            <h2>Basic Syntax</h2>
+            <pre><code>@media (condition) {
+    /* CSS rules */
+}</code></pre>
+            <p>Example:</p>
+            <pre><code>@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}</code></pre>
+        </section>
+
+        <section>
+            <h2>Common Use Cases</h2>
+            <ul>
+                <li>Responsive design</li>
+                <li>Adjusting layouts for different screen sizes</li>
+                <li>Changing styles for print media</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Example</h2>
+            <p>This example changes the background color based on the viewport width:</p>
+            <pre><code>@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+</body>
+</html>
