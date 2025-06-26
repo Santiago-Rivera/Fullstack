@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Inspection</title>
+   <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <h1>Inspect Me</h1>
+    <h2>This is a simple website to learn how to do CSS Inspection</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Suspendisse potenti. Morbi commodo, ipsum in blandit hendrerit, velit enim ornare nisi, eget consequat libero libero eu libero. Donec varius, sem eget ornare commodo, quam libero pretium libero, euismod blandit mauris nunc in magna.</p>
+    <hr>
+    <div class="quiz">
+        <div class="question">
+            Q.1 What is the named color of the body?
+        </div>
+        <div class="answer">
+            <label for="answer1"></label><input type="text" id="answer1">
+            <button type="button" onclick="checkAnswer1()">Submit</button>
+            <p id="result1"></p>
+        </div>
+        <div class="question">
+            Q.2 What is the font size of the h1?
+        </div>
+        <div class="answer">
+            <label for="answer2"></label><input type="text" id="answer2">
+            <button type="button" onclick="checkAnswer2()">Submit</button>
+            <p id="result2"></p>
+        </div>
+        <div class="question">
+            Q.3 What is the font weight of the h2?
+        </div>
+        <div class="answer">
+            <label for="answer3"></label><input type="text" id="answer3">
+            <button  type="button"  onclick="checkAnswer3()">Submit</button>
+            <p id="result3"></p>
+        </div>
+        <div class="question">
+            Q.4 What is the font family of the p?
+        </div>
+        <div class="answer">
+            <label for="answer4"></label><input type="text" id="answer4">
+            <button type="button" onclick="checkAnswer4()">Submit</button>
+            <p id="result4"></p>
+        </div>
+    </div>
+    <script src="Scripts.js"></script>
+</body>
+</html>
