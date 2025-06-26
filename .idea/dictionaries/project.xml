@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="project">
     <words>
+<<<<<<< HEAD
       <w>blandit</w>
       <w>commodo</w>
       <w>consequat</w>
@@ -17,6 +18,10 @@
       <w>suspendisse</w>
       <w>velit</w>
       <w>viverra</w>
+=======
+      <w>donec</w>
+      <w>fantacy</w>
+>>>>>>> 9eea07b7fd780317c1bef311f09ef3ff45c095fd
     </words>
   </dictionary>
 </component>

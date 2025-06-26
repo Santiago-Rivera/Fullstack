@@ -1,0 +1,24 @@
+* {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 18px;
+} /* Don't change the CSS above, add Your CSS below */
+body {
+    color: #ffffff;
+    font-size: 18px;
+}
+#Color {
+    color: coral;
+}
+#Size {
+    font-size: 2rem;
+}
+#Weight {
+    font-weight: 900;
+}
+#Family {
+    font-family: 'caveat', cursive;
+}
+#Align {
+    text-align: right;
+}
