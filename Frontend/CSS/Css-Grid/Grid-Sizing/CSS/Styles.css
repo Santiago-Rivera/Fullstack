@@ -1,0 +1,60 @@
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      background-color: #f0f0f0;
+    }
+
+    textarea {
+      width: 80%;
+      min-height: 150px;
+      margin-top: 20px;
+      resize: vertical;
+      font-family: monospace;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #4285f4;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .parent {
+      display: grid;
+      grid-template-rows: 1fr 1fr 2fr;
+      grid-template-columns: auto 400px minmax(200px, 500px);
+      grid-auto-rows: 50px;
+      width: 80%;
+      background-color: #ddd;
+      padding: 20px;
+      margin: 2rem;
+    }
+
+    .parent>* {
+      background-color: seagreen;
+      color: white;
+      font-size: 18px;
+      padding: 20px;
+      border: 2px solid white;
+    }
+
+    .grid-container {
+      width: 80%;
+      background-color: #ddd;
+      padding: 20px;
+      margin: 2rem;
+    }
+
+    .grid-item {
+      background-color: darkviolet;
+      color: white;
+      font-size: 18px;
+      padding: 20px;
+      border: 2px solid goldenrod;
+    }
