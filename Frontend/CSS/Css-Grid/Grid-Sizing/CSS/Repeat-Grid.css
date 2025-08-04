@@ -1,0 +1,13 @@
+    .grid-container {
+        display: grid;
+        grid-template-rows: repeat(2, 200px);
+        grid-template-columns: repeat(2, 200px);
+        grid-auto-rows: 300px;
+    }
+
+    .grid-item {
+        font-size: 3rem;
+        background-color: darkviolet;
+        border: 5px solid goldenrod;
+        color: white;
+    }
