@@ -1,0 +1,8 @@
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 0.75rem;
+    }
+    .overflow-hidden-max-height-30vh {
+      max-height: 30vh;
+    }
