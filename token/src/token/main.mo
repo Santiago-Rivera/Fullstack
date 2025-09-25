@@ -3,14 +3,14 @@ import HashMap "mo:base/HashMap";
 import Debug "mo:base/Debug";
 import Iter "mo:base/Iter";
 
-actor Token {
+persistent actor Token {
 
-  let owner : Principal = Principal.fromText("<REPLACE WITH YOUR OWN COMMAND LINE PRINCIPAL SEE README>");
-  let totalSupply : Nat = 1000000000000000;
-  let symbol : Text = "DANG";
+  transient let owner : Principal = Principal.fromText("rrkah-fqaaa-aaaaa-aaaaq-cai");
+  transient let totalSupply : Nat = 1000000000000000;
+  transient let symbol : Text = "DANG";
 
-  private stable var balanceEntries : [(Principal, Nat)] = [];
-  private var balances = HashMap.HashMap<Principal, Nat>(1, Principal.equal, Principal.hash);
+  private var balanceEntries : [(Principal, Nat)] = [];
+  private transient var balances = HashMap.HashMap<Principal, Nat>(1, Principal.equal, Principal.hash);
   if (balances.size() < 1) {
       balances.put(owner, totalSupply);
     };
